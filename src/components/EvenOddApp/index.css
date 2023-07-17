@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.status {
+  font-size: 24px;
+}
+button {
+  background-color: #ffffff;
+  padding: 10px;
+  border: 12px solid 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+p {
+  font-size: 14px;
+  color: #334155;
+}
+.container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 100%;
+  padding: 30px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
